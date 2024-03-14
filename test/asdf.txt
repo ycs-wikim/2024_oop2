@@ -1,0 +1,3 @@
+탐색기에서 “git bash here” 실행
+ 계정명 : ycs-wikim, 저장소명 : 2021_oop2 이라면
+
