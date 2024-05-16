@@ -1,6 +1,14 @@
 #include <stdio.h>
 
 void main() {
-	printf("%d, %d\n", 8 && 15, 8 & 15);
+	int i, total = 0;
+	for (i = 0; ;)
+	{
+		i++;
+		if (i % 5 == 0) continue;
+		if (i > 100) break;
+		total += i;		// total = total + i;
 
+	}
+	printf("1+2+ ... + 99 = %d\n", total);
 }
